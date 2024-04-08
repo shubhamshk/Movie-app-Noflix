@@ -1,0 +1,41 @@
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    width: 7px;
+    height: auto;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(232, 119, 119);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(43, 139, 105);
+    border-radius: 10px;
+}
+#ri-fire-fill{
+  background-color : "#xED32";
+}
+.select {
+    width: 20%;
+    margin: 0.5em 0;
+  }
+  
+  .select select {
+    width: 100%;
+    padding: 0.5em;
+    background-color: #333; /* Dark background */
+    color: #fff; /* Light text */
+    border: none;
+    border-radius: 0.25em;
+  }
+  
+  /* Style for the options */
+  .select option {
+    background-color: #333; /* Dark background for options */
+    color: #fff; /* Light text for options */
+  }
+  
